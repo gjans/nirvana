@@ -1,5 +1,6 @@
 {
   "name"    : "nirvana",
+  "productName": "Nirvana",
   "version" : "0.1.1",
   "description": "test to nativize Nirvana",
   "main"    : "main.js",

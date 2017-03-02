@@ -1,0 +1,15 @@
+{
+  "name"    : "nirvana",
+  "version" : "0.1.1",
+  "description": "test to nativize Nirvana",
+  "main"    : "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/gjans/nirvana.git",
+  "author": "Gatis Jansons",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "^1.4.1"
+  }
+}

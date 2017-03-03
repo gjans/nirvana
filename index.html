@@ -22,6 +22,12 @@ body {
   <p>Your browser does not support iframes.</p>
 </iframe>
 
+<script>
+window.addEventListener('resize', function(event){
+  // do stuff here
+ 	document.getElementsByTagName("iframe")[0].setAttribute("height",window.innerHeight-7);
+ 	document.getElementsByTagName("iframe")[0].setAttribute("width",window.innerWidth);
+ });
+</script>
 </BODY>
-
 </HTML>
